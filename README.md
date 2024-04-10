@@ -27,5 +27,5 @@ Linear Regression과 Statsmodels의 OLS를 활용하여 소득 예측 모델링�
 - 전처리 후: train (20000, 34), test (10000, 33)
 
 ## 아쉬운 점
-1. LinearRegression과 RandomForest 모델 성능 개선을 위해 L2(Lasso) 규제, 하이퍼파라미터 최적화 값을 찾는 GridSearch를 진행하였으나  제출 당시에는 작업환경 코랩의 작용이 멈추어 개선된 모델로 예측을 진행하지 못해 상관계수R^2 값이 0.19에 그친 LinearRegression 모델로 제출하였습니다. (성능 개선 후 Random Forest 모델의 R^2 값이 0.24까지 올라옴)
+1. LinearRegression과 RandomForest 모델 성능 개선을 위해 L2(Lasso) 규제, 하이퍼파라미터 최적화 값을 찾는 GridSearch를 진행하였으나  제출 당시에는 작업환경 코랩의 작용이 멈추어 개선된 모델로 예측을 진행하지 못해 상관계수R^2 값이 0.19에 그친 LinearRegression 모델로 제출하였습니다.
 1. GridSearch를 통해 성능 개선을 시도해도 R^2 값이 0.24에 그친 점이 아쉬웠습니다.
