@@ -8,7 +8,7 @@ Linear Regression과 Statsmodels의 OLS를 활용하여 소득 예측 모델링�
 - 3_Models
   - Statsmodels의 OLS를 사용하여 독립, 종속 변수간 통계적 유의성을 확인
   - sk-learn의 Pipeline 클래스로 교차검증지수 기반으로 모델 선택
-  - 위 내용 바탕으로 Decision Tree, RandomForest, LinearRegression으로 모델링 수행, GridSearch로 성능 개선 시도
+  - 위 내용 바탕으로 Decision Tree, RandomForest, LinearRegression으로 모델링 수행, Ridge 규제와 Scaling, GridSearch로 성능 개선 시도
 
 ---
 # 대회요약
