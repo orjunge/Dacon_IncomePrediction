@@ -8,8 +8,11 @@ Linear Regression과 Statsmodels의 OLS를 활용하여 소득 예측 모델링�
 - 3_Models
   - Statsmodels의 OLS를 사용하여 독립, 종속 변수간 통계적 유의성을 확인
   - sk-learn의 Pipeline 클래스로 교차검증지수 기반으로 모델 선택
-  - 위 내용 바탕으로 Decision Tree, RandomForest, LinearRegression으로 모델링 수행, Ridge 규제와 Scaling, GridSearch로 성능 개선 시도
-
+  - Decision Tree, RandomForest, LinearRegression으로 모델링 수행, Ridge 규제와 Scaling, GridSearch로 성능 개선 시도
+- 4_최종모델-다항릿지회귀.ipynb
+  - High Cardinality를 가진 컬럼 전처리에 효과적인 Target Encoder를 추가하여 전처리를 다시 진행한 후,
+  - 비선형 데이터 모델링에 강한 다항 모델을 시도했고, L2(Ridge) 규제를 적용하여 R^2 값을 0.28까지 끌어올려 최종 모델로 결정했습니다.
+  
 ---
 # 대회요약
 
@@ -27,6 +30,6 @@ Linear Regression과 Statsmodels의 OLS를 활용하여 소득 예측 모델링�
 - 전처리 후: train (20000, 34), test (10000, 33)
 
 ## 회고
-1. LinearRegression, DecisionTree, RandomForest 모델링을 하였고, 그 과정에서 L2(Lasso) 규제, 하이퍼파라미터 최적화 값을 찾는 GridSearch를 진행하였으나 제출 당시에는 작업환경 코랩의 작용이 멈추어 개선된 모델로 예측을 진행하지 못해 상관계수R^2 값이 0.19에 그친 LinearRegression 모델로 제출하였습니다.
-1. 정규화, 표준화, GridSearch, 규제 적용 등 여러 방면으로 성능 개선을 시도해 최종적으로 끌어올린 성능 지표 R^2 값이 0.21에 그친 점이 아쉬웠습니다.
+1. LinearRegression, DecisionTree, RandomForest, 다항회귀모델 모델링을 하였고, 그 과정에서 L2(Lasso) 규제, 하이퍼파라미터 최적화 값을 찾는 GridSearch를 진행하였으나 제출 당시에는 작업환경 코랩의 작용이 멈추어 개선된 모델로 예측을 진행하지 못해 상관계수R^2 값이 0.19에 그친 LinearRegression 모델로 제출하였습니다.
+1. 정규화, 표준화, GridSearch, 규제 적용 등 여러 방면으로 성능 개선을 시도해 최종적으로 끌어올린 성능 지표 R^2 값이 0.28에 그친 점이 아쉬웠습니다.
 1. OLS로 변수간의 설명도로 변수를 제거하고, 성능을 올리기 위해 규제, 표준화, GridSearch의 adams 파라미터의 역할을 학습할 수 있었습니다.
