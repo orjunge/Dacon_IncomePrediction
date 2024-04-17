@@ -161,7 +161,7 @@ cython_debug/
 
 
 
-Streamlit-IncomePrediction.py
-polynominal_model.pkl
-requirements.txt
-train_preprocessed_streamlit.csv
+.Streamlit-IncomePrediction.py
+.polynominal_model.pkl
+.requirements.txt
+.train_preprocessed_streamlit.csv
