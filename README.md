@@ -1,6 +1,6 @@
 # Dacon_IncomePrediction
-Linear Regression과 Statsmodels의 OLS를 활용하여 소득 예측 모델링을 진행했던 코드입니다.
-- [소득 예측 AI 해커톤 대회안내 링크](https://dacon.io/competitions/official/236230/overview/description)
+Linear Regression과 Statsmodels의 OLS를 활용하여 [소득 예측 AI 해커톤 대회안내 링크](https://dacon.io/competitions/official/236230/overview/description)을 진행했던 코드입니다.
+- README.md 하단에서 Streamlit 구현한 화면을 확인하실 수 있습니다.
 
 # 파일 설명
 - 1_EDA : EDA 진행하여 전처리 사항을 결정
@@ -15,19 +15,13 @@ Linear Regression과 Statsmodels의 OLS를 활용하여 소득 예측 모델링�
   
 ---
 # 대회요약
-
-## 대회 주제
+### 대회 주제
 개인 특성 데이터를 활용하여 개인 소득 수준을 예측하는 AI 모델 개발
-
-## 실제 참여 기간
+### 실제 참여 기간
 2024.04.02 ~ 2024.04.08 (약 1주일)
 
-## 최종순위
+### 최종순위
 410등/1,164명 (Private 순위)  |  최종점수: 588.51337
-
-## 데이터 설명
-- 원본: train (20000, 23), test(10000, 22)
-- 전처리 후: train (20000, 34), test (10000, 33)
 
 # Streamlit App
 - 사용자 정보 값을 받아 소득이 예측되는 사용자 화면을 구현하였습니다.
