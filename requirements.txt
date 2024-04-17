@@ -1,0 +1,16 @@
+sktime
+pmdarima
+pandas
+matplotlib
+seaborn
+plotly
+scikit-learn
+yfinance
+lightgbm
+statsmodels
+streamlit
+xmltodict
+streamlit-option-menu
+millify
+pingouin
+jupyterlab
