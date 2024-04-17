@@ -1,5 +1,5 @@
 # Dacon_IncomePrediction
-Linear Regression과 Statsmodels의 OLS를 활용하여 [소득 예측 AI 해커톤 대회안내 링크](https://dacon.io/competitions/official/236230/overview/description)을 진행했던 코드입니다.
+다항 릿지 회귀 모델, OLS, LinearRegression, RandomForest를 활용하여 [소득 예측 AI 해커톤 대회안내 링크](https://dacon.io/competitions/official/236230/overview/description)을 진행했던 코드입니다.
 - README.md 하단에서 Streamlit 구현한 화면을 확인하실 수 있습니다.
 
 # 파일 설명
