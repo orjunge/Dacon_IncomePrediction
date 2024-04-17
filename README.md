@@ -2,7 +2,7 @@
 다항 릿지 회귀 모델, OLS, LinearRegression, RandomForest를 활용하여 [소득 예측 AI 해커톤 대회안내 링크](https://dacon.io/competitions/official/236230/overview/description)을 진행했던 코드입니다.
 - README.md 하단에서 Streamlit 구현한 화면을 확인하실 수 있습니다.
 
-# 파일 설명
+## 파일 설명
 - 1_EDA : EDA 진행하여 전처리 사항을 결정
 - 2_Preprocessed : 전처리 과정
 - 3_Models
@@ -14,7 +14,7 @@
   - 비선형 데이터 모델링에 강한 다항 모델을 시도했고, L2(Ridge) 규제를 적용하여 R^2 값을 0.28까지 끌어올려 최종 모델로 결정했습니다.
   
 ---
-# 대회요약
+## 대회요약
 ### 대회 주제
 개인 특성 데이터를 활용하여 개인 소득 수준을 예측하는 AI 모델 개발
 ### 실제 참여 기간
