@@ -1,9 +1,3 @@
-# Streamlit App
-- 사용자 정보 값을 받아 소득이 예측되는 사용자 화면을 구현하였습니다.
-- 앱 로딩에 오랜 시간이 소요되어 캡쳐로 대신합니다.
-<img width="961" alt="Streamlit Operating Capture" src="https://github.com/orjunge/Dacon_IncomePrediction/assets/127750133/ba2fe734-7c78-430d-a532-5ad347f44c79">
-
-
 # Dacon_IncomePrediction
 Linear Regression과 Statsmodels의 OLS를 활용하여 소득 예측 모델링을 진행했던 코드입니다.
 - [소득 예측 AI 해커톤 대회안내 링크](https://dacon.io/competitions/official/236230/overview/description)
@@ -35,7 +29,12 @@ Linear Regression과 Statsmodels의 OLS를 활용하여 소득 예측 모델링�
 - 원본: train (20000, 23), test(10000, 22)
 - 전처리 후: train (20000, 34), test (10000, 33)
 
-## 회고
+# Streamlit App
+- 사용자 정보 값을 받아 소득이 예측되는 사용자 화면을 구현하였습니다.
+- 앱 로딩에 오랜 시간이 소요되어 캡쳐로 대신합니다.
+<img width="961" alt="Streamlit Operating Capture" src="https://github.com/orjunge/Dacon_IncomePrediction/assets/127750133/ba2fe734-7c78-430d-a532-5ad347f44c79">
+
+# 회고
 1. LinearRegression, DecisionTree, RandomForest, 다항회귀모델 모델링을 하였고, 그 과정에서 L2(Lasso) 규제, 하이퍼파라미터 최적화 값을 찾는 GridSearch를 진행하였으나 제출 당시에는 작업환경 코랩의 작용이 멈추어 개선된 모델로 예측을 진행하지 못해 상관계수R^2 값이 0.19에 그친 LinearRegression 모델로 제출하였습니다.
 1. 정규화, 표준화, GridSearch, 규제 적용 등 여러 방면으로 성능 개선을 시도해 최종적으로 끌어올린 성능 지표 R^2 값이 0.28에 그친 점이 아쉬웠습니다.
 1. OLS로 변수간의 설명도로 변수를 제거하고, 성능을 올리기 위해 규제, 표준화, GridSearch의 adams 파라미터의 역할을 학습할 수 있었습니다.
